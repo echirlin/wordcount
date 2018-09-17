@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	font-size: 10px;
+	font-family: 'Helvetica', sans-serif;
+}
+div, input, textarea, button {
+	box-sizing: border-box;
+}
+.form-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.form-container {
+	position: relative;
+	padding: 40px 60px;
+}
+.page-title {
+	font-size: 2rem;
+	text-align: center;
+}
+.wordcount-text-input {
+	width: 100%;
+	margin-bottom: 12px;
+}
+.wordcount-count-label {
+	display: inline-block;
+	line-height: 1.2em;
+}
+.wordcount-count-label,
+.wordcount-submit {
+	font-size: 1.5rem;
+}
+.wordcount-submit {
+	float: right;
+	clear: both;
+}
+.error {
+	background: #ef8770;
+	padding: 4px 6px;
+}
