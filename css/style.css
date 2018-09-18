@@ -34,10 +34,12 @@ div, input, textarea, button {
 	font-size: 1.5rem;
 }
 .wordcount-submit {
-	float: right;
-	clear: both;
+	display: block;
+	margin-top: 4px;
+}
+#wordcount-count-value {
+	padding: 2px 4px;
 }
 .error {
 	background: #ef8770;
-	padding: 4px 6px;
 }
