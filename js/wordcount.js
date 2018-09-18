@@ -19,7 +19,7 @@ $(document).ready(function() {
 				return 0;
 			}
 
-			return text.split(/[\s,.;?!]+/gi).length;
+			return text.split(/[^^][\s,.;?!]+[^$]/gi).length;
 		},
 		_printResults: function(val, error) {
 			var wordcountDisplay = $('#wordcount-count-value');
